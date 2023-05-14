@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    margin: 5% 20%;
+    font-family: 'Roboto', sans-serif;
+}
+h1 {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 98, 255);
+    border-radius: 10px;
+}
+.container {
+    border-style: solid;
+    border-color: rgb(0, 98, 255);
+    border-radius: 10px;
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: white;
+}
+.container-header {
+    text-align: center;
+}
+.buku {
+    text-align: center;
+    height: 400px;
+}
+.pemasukan {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+label {
+    font-size: 24px;
+}
+input {
+    font-size: 20px;
+    background-color: aliceblue;
+    border-color: rgb(0, 98, 255);
+    outline: none;
+}
+.button {
+    background-color: white;
+    color: rgb(0, 98, 255);
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 20px;
+}
+.button:hover {
+    background-color: rgb(0, 98, 255);
+    color: white;
+}
+
+.check-button {
+    width: 40px;
+    height: 40px;
+
+    background: url('assets/SVG/bx-checkbox-checked.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.trash-button {
+    width: 40px;
+    height: 40px;
+
+    background: url('assets/SVG/bx-trash.svg');
+    background-size: contain;
+    margin-left: 16px;
+    cursor: pointer;
+    border: none;
+}
+
+.undo-button {
+    width: 40px;
+    height: 40px;
+
+    background: url('assets/SVG/bx-undo.svg');
+    background-size: contain;
+    margin-left: auto;
+    cursor: pointer;
+    border: none;
+}
+
+.item {
+    border-radius: 16px;
+    margin-top: 16px;
+    padding: 12px 24px 12px 24px;
+    background: rgb(0, 98, 255);
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.item > .inner h2 {
+    font-size: 40px;
+    margin-bottom: unset;
+}
+
+.item > .inner p {
+    margin-top: 5px;
+    font-size: 26px;
+}
